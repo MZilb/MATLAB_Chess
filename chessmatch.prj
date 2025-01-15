@@ -1,0 +1,88 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="C:\Users\mzilb\OneDrive\Documents\Chess_zipped\Chess\chessmatch.prj" location="C:\Users\mzilb\OneDrive\Documents\Chess_zipped\Chess" name="chessmatch" target="target.mlapps" target-name="Package App">
+    <param.appname>chessmatch</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\mzilb\AppData\Local\Temp\tpe989317c_4375_43b7_8313_daeac59fbea5.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>b15ed7bb-1f62-49f3-9b56-41aa28a444e9</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\chessmatch.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\bb.png</file>
+      <file>${PROJECT_ROOT}\bk.png</file>
+      <file>${PROJECT_ROOT}\bn.png</file>
+      <file>${PROJECT_ROOT}\bp.png</file>
+      <file>${PROJECT_ROOT}\bq.png</file>
+      <file>${PROJECT_ROOT}\br.png</file>
+      <file>${PROJECT_ROOT}\changeTurn.m</file>
+      <file>${PROJECT_ROOT}\changeTurnColor.m</file>
+      <file>${PROJECT_ROOT}\checkLegal.m</file>
+      <file>${PROJECT_ROOT}\Chessboard.jpg</file>
+      <file>${PROJECT_ROOT}\coordinate_to_column.m</file>
+      <file>${PROJECT_ROOT}\coordinate_to_row.m</file>
+      <file>${PROJECT_ROOT}\movePiece.m</file>
+      <file>${PROJECT_ROOT}\Piece_images\wp.png</file>
+      <file>${PROJECT_ROOT}\Piece_images\wr.png</file>
+      <file>${PROJECT_ROOT}\setup_board.m</file>
+      <file>${PROJECT_ROOT}\start_game.m</file>
+      <file>${PROJECT_ROOT}\wb.png</file>
+      <file>${PROJECT_ROOT}\white_color_starts.m</file>
+      <file>${PROJECT_ROOT}\white_starts.m</file>
+      <file>${PROJECT_ROOT}\wk.png</file>
+      <file>${PROJECT_ROOT}\wn.png</file>
+      <file>${PROJECT_ROOT}\wq.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\mzilb\OneDrive\Documents\Chess_zipped" name="Chess" optional="false">C:\Users\mzilb\OneDrive\Documents\Chess_zipped\Chess</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
