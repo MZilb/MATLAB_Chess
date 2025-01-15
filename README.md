@@ -4,6 +4,6 @@ You must download the entire repo,  open the "chessmatch.mlapp" file, and run th
 A pop-up with the game should be generated for you to play.
 
 Gameplay.
-Enter the square of the piece you would like to move, and the location that you would like to move it to.
+Using lowercase letters, enter the square of the piece you would like to move and the location that you would like to move it to.
 The game checks for move legality, so no cheating!
 The game ends when you take the opponent's king.
